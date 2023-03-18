@@ -8,7 +8,7 @@ int main(void)
 {
 	int number = 0;
 	char hex = 'a';
-	
+
 	while (number <= 9)
 	{
 		putchar((char)number + '0');
