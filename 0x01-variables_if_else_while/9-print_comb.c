@@ -10,10 +10,10 @@ int main(void)
 
  	while (number <= 9)
 	{
-		
+
 		putchar((char)number + '0');
 		if (number != 9)
-		{	
+		{
 			putchar(',');
 			putchar(' ');
 		}
