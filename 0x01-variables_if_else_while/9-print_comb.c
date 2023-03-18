@@ -4,21 +4,22 @@
  *
  *Return: Always 0 (Success)
  */
-int main(void)
-{
-	int number = 0;
 
- 	while (number <= 9)
+	int main(void)
 	{
+		int number = 0;
 
-		putchar((char)number + '0');
-		if (number != 9)
+		while (number <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+
+			putchar((char)number + '0');
+			if (number != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			number++;
 		}
-		number++;
+		putchar('\n');
+		return (0);
 	}
-	putchar('\n');
-	return (0);
-}
