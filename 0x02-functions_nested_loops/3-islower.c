@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *main - Entry point
- *
- *Return: Always 0 (Success)
+ *_islower- Entry point
+ *c is char parametre
+ *Return: Always int 0 or 1 (Success)
  */
 int _islower(int c)
 {
-	if ((int) c >=97 && (int) c <= 122)
+	if ((int) c > =97 && (int) c <= 122)
 		return (1);
 	else
 		return (0);
