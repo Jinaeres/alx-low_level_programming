@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_islower- Entry point
+ *print_sign Entry point
  *@n: the number to check
  *Return: Always int 1 if positive  or -1 if negative or  (Success)
  */
