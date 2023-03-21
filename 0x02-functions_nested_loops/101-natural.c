@@ -16,12 +16,12 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			sum = sum+ i;
-		} 
+			sum = sum + i;
+		}
 
 		else if ((i % 5) == 0)
 		{
-			sum= sum+ i;
+			sum = sum + i;
 		}
 	}
 	printf("%lu\n", sum);
