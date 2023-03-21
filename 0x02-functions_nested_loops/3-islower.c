@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *_islower- Entry point
- *Parameter: 'c' is parametre
- *Return: Always int 0 or 1 (Success)
+ *@c: the character to check
+ *Return: Always int 1 if lowercase or 0 otherwise (Success)
  */
 int _islower(int c)
 {
