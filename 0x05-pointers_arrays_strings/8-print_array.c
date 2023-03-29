@@ -1,19 +1,33 @@
 #include "main.h"
 
 /**
- * main - check the code for
- *
- * Return: Always 0.
+ * puts_half - prints half of a string
+ * followed by a new line
+ * @str: string to be printed
  */
-int main(void)
+void puts_half(char *str)
 {
-    int array[5];
+	int len, n, i;
 
-    array[0] = 98;
-    array[1] = 402;
-    array[2] = -198;
-    array[3] = 298;
-    array[4] = -1024;
-    print_array(array, 5);
-    return (0);
+	len = 0;
+
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+
+	if (len % 2 == 0)
+	{
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	} else if (len % 2)
+	{
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
+	}
+	_putchar('\n');
 }
